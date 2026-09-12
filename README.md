@@ -21,6 +21,15 @@ A partir desses dados, foi criada uma variável binária de produtividade basead
 
 Python · Pandas · NumPy · Matplotlib · Seaborn
 
+## Estrutura
+
+```text
+.
+├── analise_produtividade.ipynb
+├── requirements.txt
+└── README.md
+```
+
 ## Como executar
 
 ```bash

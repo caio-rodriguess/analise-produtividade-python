@@ -13,30 +13,30 @@ A partir desses dados, foi criada uma variável binária de produtividade basead
 - classificação das variáveis;
 - tabelas de frequência;
 - visualizações das variáveis qualitativas;
+- boxplots para variáveis quantitativas;
 - tabelas de contingência;
 - cálculo de proporções;
-- exploração da relação entre departamento e nível de produtividade.
+- exploração da relação entre departamento, home office, cursos e produtividade.
 
 ## Tecnologias utilizadas
 
 Python · Pandas · NumPy · Matplotlib · Seaborn
 
-## Estrutura
-
-```text
-.
-├── analise_produtividade.ipynb
-├── requirements.txt
-└── README.md
-```
-
 ## Como executar
+
+Instale as dependências com:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Depois, abra `analise_produtividade.ipynb` em Jupyter Notebook, JupyterLab ou VS Code.
+Depois, execute:
+
+```bash
+python analise_produtividade.py
+```
+
+O script carrega os dados, realiza a análise exploratória e gera as visualizações automaticamente.
 
 ## Contexto acadêmico
 
